@@ -3,6 +3,19 @@
 	function handleClick() {
     		count++;
 	}
+	import Notifications from 'svelte-notifications';
+	  import { getNotificationsContext } from 'svelte-notifications';
+
+  	const { addNotification } = getNotificationsContext();
+
+  	addNotification({
+    		id: 'uniqNotificationId',
+    		text: 'Notification',
+    		position: 'bottom-center',
+    		type: 'success',
+    		removeAfter: 4000,
+    		...rest,
+  	});
 </script>
 
 <main>
