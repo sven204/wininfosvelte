@@ -2,7 +2,7 @@
 	export let name;
 	let count = 0;
 	function handleClick() {
-    	  count++;
+    		count++;
 	}
 </script>
 
