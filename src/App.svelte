@@ -16,9 +16,7 @@
 	<br>
 	<br>
 	<!-- open each block -->
-	<li><a target="_blank" href="{url}">
-		{urltext}
-	</a></li>
+	<li><a target="_blank" href="{url}">{urltext}</a></li>
 	<!-- close each block -->
 </ul>
 </main>
