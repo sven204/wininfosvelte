@@ -1,5 +1,9 @@
 <script>
 	export let name;
+	let count = 0;
+	function handleClick() {
+    	  count++;
+	}
 </script>
 
 <main>
