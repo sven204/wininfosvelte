@@ -3,19 +3,6 @@
 	function handleClick() {
     		count++;
 	}
-	import Notifications from 'svelte-notifications';
-	  import { getNotificationsContext } from 'svelte-notifications';
-
-  	const { addNotification } = getNotificationsContext();
-
-  	addNotification({
-    		id: 'uniqNotificationId',
-    		text: 'Notification',
-    		position: 'bottom-center',
-    		type: 'success',
-    		removeAfter: 4000,
-    		...rest,
-  	});
 </script>
 
 <main>
@@ -23,6 +10,14 @@
 	<p>Note: This app isn't ready yet, check back later!</p>
 	
 	<button on:click={handleClick}>Clicked {count} {count === 1 ? 'time' : 'times'}</button>
+	<br>
+	<br>
+	<!-- open each block -->
+	<li><a target="_blank" href="https://www.youtube.com/watch?v={cat.id}">
+		{cat.name}
+	</a></li>
+	<!-- close each block -->
+</ul>
 </main>
 
 <style>
