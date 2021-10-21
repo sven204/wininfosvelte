@@ -6,9 +6,7 @@
 	<h3>WinInfo is back, now in SvelteJS!</h3>
 	<p>Note: This app isn't ready yet, check back later!</p>
 	
-	<button on:click={handleClick}>
-	Clicked {count} {count === 1 ? 'time' : 'times'}
-	</button>
+	<button on:click={handleClick}>Clicked {count} {count === 1 ? 'time' : 'times'}</button>
 </main>
 
 <style>
