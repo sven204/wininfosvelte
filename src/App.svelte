@@ -3,6 +3,9 @@
 	function handleClick() {
     		count++;
 	}
+	let urltext = "test"
+	let url = "https://example.org"
+	
 </script>
 
 <main>
@@ -13,8 +16,8 @@
 	<br>
 	<br>
 	<!-- open each block -->
-	<li><a target="_blank" href="https://www.youtube.com/watch?v={cat.id}">
-		{cat.name}
+	<li><a target="_blank" href="{url}">
+		{urltext}
 	</a></li>
 	<!-- close each block -->
 </ul>
