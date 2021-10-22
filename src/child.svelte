@@ -5,11 +5,11 @@
 
 <button
   on:click={() => addNotification({
-    text: 'Notification',
-    position: 'bottom-center',
+    text: 'This is a test notification',
+    position: 'top-right',
   })}
 	>
-	Click me
+	Notification Experiment
 </button>
 
 <style>
