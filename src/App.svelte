@@ -5,7 +5,7 @@
 			"name": "Windows 11 22000.194",
 			"version": "21H2",
 			"codename": "Sun Valley",
-			"released": "2021"
+			"released": "2021",
 			"eol": "N/A"
 		},
 		{
