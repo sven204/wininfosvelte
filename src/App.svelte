@@ -2,31 +2,35 @@
 	// This array has all of the information in the website.
 	let windowslist = [
 		{
-			"name": "Windows 11",
-			"version": "Sun Valley",
+			"name": "Windows 11 22000.194",
+			"version": "21H2",
+			"codename": "Sun Valley",
 			"released": "2021"
+			"eol": "N/A"
 		},
 		{
 			"name": "Windows 10",
-			"version": "Redstone",
-			"released": "2015"
+			"version": "21H1",
+			"codename": "Redstone",
+			"released": "2015",
+			"eol": "2025"
 		},
 		{
 			"name": "Windows 7",
-			"version": "Something IDK",
-			"released": "2009 or something"
+			"version": "NT 6.1",
+			"codename": "Blackcomb",
+			"released": "2009",
+			"eol": "2020"
 		},
 	]
 </script>
 <h1>Test!</h1>
-<!-- This is #each loop in Svelte. It loops over the array of objects, in the variable called "windowslist".-->
 {#each windowslist as windows}
 <div class="card">
 	{windows.name} <br> {windows.version} <br> Released in {windows.released}
 </div>
 <br>
 {/each}
-<!-- PLEASE change these styles. (if you use this help of course) -->
 <style>
 	.card {
 		height: 100px;
