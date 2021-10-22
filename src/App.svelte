@@ -2,7 +2,8 @@
   import windowslist from "./data";
 </script>
 
-<h1>Test!</h1>
+<h1>WinInfo by JaydenDevelopment</h1>
+<p> Dynamic WebApp with information about Windows builds.</p>
 {#each windowslist as windows}
   <div class="card">
     <p>
