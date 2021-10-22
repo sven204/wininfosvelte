@@ -1,6 +1,13 @@
 <script>
   import windowslist from "./data";
+  import Notifications from 'svelte-notifications';
+	import Child from './child.svelte';
 </script>
+
+
+<Notifications>
+	<Child />
+</Notifications>
 
 <h1>WinInfo by JaydenDevelopment</h1>
 <p> Dynamic WebApp with information about Windows builds.</p>
