@@ -29,6 +29,9 @@
 {/each}
 
 <style>
+  button {
+    border-radius: 5pt;
+  }
   * {
     color: white;
   }

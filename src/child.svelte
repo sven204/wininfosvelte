@@ -1,6 +1,6 @@
 <script>
-	import { getNotificationsContext } from 'svelte-notifications';
-  const { addNotification } = getNotificationsContext();
+    import { getNotificationsContext } from 'svelte-notifications';
+    const { addNotification } = getNotificationsContext();
 </script>
 
 <button
@@ -11,3 +11,9 @@
 	>
 	Click me
 </button>
+
+<style>
+  button {
+    border-radius: 5pt;
+  }
+</style>
