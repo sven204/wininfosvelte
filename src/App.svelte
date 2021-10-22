@@ -35,6 +35,7 @@
 	.card {
 		height: 100px;
 		background-color: orange;
+		border-radius: 5pt;
 		width: 200px;
 		color: white;
 		padding: 5px;
