@@ -14,6 +14,8 @@
       Released: {windows.rel}
       <br>
       EOL: {windows.eol}
+      <br>
+      Last Update: {windows.last}
     </p>
   </div>
   <br />
