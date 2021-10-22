@@ -4,7 +4,7 @@
 <h1>Test!</h1>
 {#each windowslist as windows}
 <div class="card">
-	{windows.name} <br> {windows.version} <br> Released in {windows.released}
+	<p>{windows.name} <br> {windows.version} <br> Released: {windows.released}</p>
 </div>
 <br>
 {/each}
