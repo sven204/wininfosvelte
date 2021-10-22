@@ -2,10 +2,24 @@
 	export let name;
 	function handleClick() {
     		count++;
-	}
-	let urltext = "test"
-	let url = "https://example.org"
-	
+	}	
+		let windowslist = [
+	{
+		"name": "Windows 11",
+		"version": "Sun Valley",
+		"released": "2021"
+	},
+	{
+		"name": "Windows 10",
+		"version": "Redstone",
+		"released": "2015"
+	},
+	{
+		"name": "Windows 7",
+		"version": "Something IDK",
+		"released": "2009 or something"
+	},
+	]
 </script>
 
 <main>
@@ -15,11 +29,13 @@
 	<button on:click={handleClick}>Clicked {count} {count === 1 ? 'time' : 'times'}</button>
 	<br>
 	<br>
-	<!-- open each block -->
-	<li><a target="_blank" href={url}>{urltext}</a></li>
-	<!-- close each block -->
-</ul>
-</main>
+	{#each windowslist as windows}
+	<div class="card">
+	{windows.name} <br> {windows.version} <br> Released in {windows.released}
+	</div>
+	<br>
+	{/each}
+	</main>
 
 <style>
 	main {
