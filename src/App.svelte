@@ -32,9 +32,6 @@
 <br>
 {/each}
 <style>
-	body {
-		background-color: black;
-	}
 	.card {
 		height: 100px;
 		background-color: white;
