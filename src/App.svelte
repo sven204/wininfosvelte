@@ -1,5 +1,5 @@
 <script>
-	import windowslist from './data.js';
+	import windowslist from './data';
 </script>
 <h1>Test!</h1>
 {#each windowslist as windows}
@@ -14,7 +14,7 @@
 		background-color: white;
 		border-radius: 5pt;
 		width: 200px;
-		color: white;
+		color: black;
 		padding: 5px;
 	}
 </style>

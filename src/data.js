@@ -21,3 +21,4 @@ let windowslist = [
 			"eol": "2020"
 		},
 	]
+export default windowslist;
