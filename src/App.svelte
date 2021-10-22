@@ -32,9 +32,12 @@
 <br>
 {/each}
 <style>
+	body {
+		background-color: black;
+	}
 	.card {
 		height: 100px;
-		background-color: orange;
+		background-color: white;
 		border-radius: 5pt;
 		width: 200px;
 		color: white;
