@@ -7,7 +7,7 @@
   <div class="card">
     <p>
       {windows.name} <br />
-      {windows.version} <br /> Released: {windows.released}
+      {windows.build} <br /> Released: {windows.rel}
     </p>
   </div>
   <br />
