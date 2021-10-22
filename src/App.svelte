@@ -6,8 +6,10 @@
 {#each windowslist as windows}
   <div class="card">
     <p>
-      {windows.name} <br />
-      {windows.build} <br /> Released: {windows.rel}
+      {windows.name} <br/>
+      Build: {windows.build} 
+      <br/> 
+      Released: {windows.rel}
     </p>
   </div>
   <br />
