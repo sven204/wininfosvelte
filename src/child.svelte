@@ -4,13 +4,13 @@
     export let selectedTheme;
 </script>
 
-<button class="button:disabled {selectedTheme}"
+<button class="button:disabled\"
   on:click={() => addNotification({
     text: 'This is a test notification',
     position: 'top-right',
   })}
 	>
-	Notification Experiment
+	Experiment #ff01 temporarily disabled
 </button>
 
 <style>
