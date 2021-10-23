@@ -37,10 +37,13 @@
 </div>
 
 <style>
+<<<<<<< Updated upstream
   /* button {
     border-radius: 5pt;
   } */
   
+=======
+>>>>>>> Stashed changes
   * {
     color: white;
   }
