@@ -4,7 +4,7 @@
 .card.w11light {
   background-color: black !important;
 }
-.card.w10 {
+/* .card.w10 {
   border-radius: 0pt;
   background-color: white !important;
 }
@@ -12,6 +12,7 @@
   background-color: black;
   color: white;
 }
+*/
 .btn.w11dark {
   background-color: black;
 }
