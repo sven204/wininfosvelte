@@ -4,7 +4,7 @@
     export let selectedTheme;
 </script>
 
-<button class="notification {selectedTheme}"
+<button class="disabled {selectedTheme}"
   on:click={() => addNotification({
     text: 'This is a test notification',
     position: 'top-right',
