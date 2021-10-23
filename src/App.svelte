@@ -1,13 +1,11 @@
 <script>
   import windowslist from "./data";
   import themelist from "./themelist";
-  import Notifications from "svelte-notifications";
-  import Child from "./child.svelte";
   let selectedTheme = "w11dark";
 </script>
 
 <div class="container {selectedTheme}">  
-  <label for="theme">Choose a theme: </label>
+  <label for="theme">Theme</label>
   <select name="theme" id="theme" bind:value={selectedTheme}>
     {#each themelist as theme}
       <option value={theme}>{theme}</option>
