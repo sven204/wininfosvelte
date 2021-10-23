@@ -36,6 +36,12 @@
 .card.w11light * {
   color: white;
 }
+.notification-content {
+  color: black !important;
+}
+.notification {
+  color: black !important;
+}
 #theme {
   color: black;
 }
