@@ -4,6 +4,10 @@
 .card.w11light {
   background-color: black !important;
 }
+.card.w10 {
+  border-radius: 0pt;
+  background-color: black !important;
+}
 .notif.w11dark {
 
 }
