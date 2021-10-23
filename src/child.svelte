@@ -1,9 +1,10 @@
 <script>
     import { getNotificationsContext } from 'svelte-notifications';
     const { addNotification } = getNotificationsContext();
+    export let selectedTheme;
 </script>
 
-<button
+<button class="notification {selectedTheme}"
   on:click={() => addNotification({
     text: 'This is a test notification',
     position: 'top-right',
@@ -15,5 +16,6 @@
 <style>
   button {
     border-radius: 5pt;
+    color: black;
   }
 </style>

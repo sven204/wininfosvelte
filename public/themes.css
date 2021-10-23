@@ -10,9 +10,11 @@
 }
 .notif.w11dark {
 
+.notification {
+  color: black !important;
 }
-.notif.w11light {
-
+.notification-content {
+  color: black !important;
 }
 .btn.w11dark {
   background-color: white;
