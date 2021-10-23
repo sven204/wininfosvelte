@@ -8,13 +8,9 @@
   border-radius: 0pt;
   background-color: black !important;
 }
-.notif.w11dark {
-
-.notification {
-  color: black !important;
-}
-.notification-content {
-  color: black !important;
+.container.w10 {
+  background-color: black;
+  color: white;
 }
 .btn.w11dark {
   background-color: white;
