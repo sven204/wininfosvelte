@@ -37,13 +37,10 @@
 </div>
 
 <style>
-<<<<<<< Updated upstream
   /* button {
     border-radius: 5pt;
   } */
   
-=======
->>>>>>> Stashed changes
   * {
     color: white;
   }
@@ -56,7 +53,8 @@
   }
   
   .card {
-    min-height: 100px;
+    height: 100%;
+    width: 100%;
     background-color: white;
     border-radius: 5pt;
     width: 200px;
