@@ -6,13 +6,7 @@
   let selectedTheme = "w11dark";
 </script>
 
-<div class="container {selectedTheme}">
-  <div class="notification">
-    <Notifications>
-      <Child {selectedTheme}/>
-    </Notifications>
-  </div>
-  
+<div class="container {selectedTheme}">  
   <label for="theme">Choose a theme: </label>
   <select name="theme" id="theme" bind:value={selectedTheme}>
     {#each themelist as theme}
