@@ -4,6 +4,18 @@
 .card.w11light {
   background-color: black !important;
 }
+.notif.w11dark {
+
+}
+.notif.w11light {
+
+}
+.btn.w11dark {
+  background-color: white;
+}
+.btn.w11light {
+  background-color: black;
+}
 .container.w11light {
   background-color: white;
 }
