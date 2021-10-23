@@ -2,6 +2,8 @@
   import windowslist from "./data";
   import Notifications from 'svelte-notifications';
 	import Child from './child.svelte';
+  // w11dark, w11light, add some more in the styles down below
+  let theme = "w11dark";
 </script>
 
 
@@ -10,9 +12,9 @@
 </Notifications>
 
 <h1>WinInfo by JaydenDevelopment</h1>
-<p> Dynamic WebApp with information about Windows builds.</p>
+<p>Dynamic WebApp with information about Windows builds.</p>
 {#each windowslist as windows}
-  <div class="card">
+  <div class="card {theme}">
     <p>
       {windows.name} 
       <br>
@@ -22,7 +24,7 @@
       <br>
       EOL: {windows.eol}
       <br>
-      Last Update: {windows.last}
+      <!-- Last Update: {windows.last} -->
     </p>
   </div>
   <br />
@@ -39,7 +41,7 @@
     color: black;
   }
   .card {
-    height: 100px;
+    min-height: 100px;
     background-color: white;
     border-radius: 5pt;
     width: 200px;

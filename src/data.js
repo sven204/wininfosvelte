@@ -31,7 +31,7 @@ let windowslist = [
 			"name": "Windows XP",
 			"build": "NT 5.1",
 			"codname": "Whistler",
-			"eol": "Contribute"
+			"eol": "2014"
 		}
 	]
 export default windowslist;
