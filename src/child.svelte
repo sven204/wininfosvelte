@@ -16,6 +16,7 @@
 <style>
   button {
     border-radius: 5pt;
+    background-color: white;
     color: black;
   }
 </style>
