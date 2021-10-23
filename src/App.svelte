@@ -7,9 +7,12 @@
 </script>
 
 <div class="container {selectedTheme}">
-  <Notifications>
-    <Child />
-  </Notifications>
+  <div class="notification">
+    <Notifications>
+      <Child {selectedTheme}/>
+    </Notifications>
+  </div>
+  
   <label for="theme">Choose a theme: </label>
   <select name="theme" id="theme" bind:value={selectedTheme}>
     {#each themelist as theme}
