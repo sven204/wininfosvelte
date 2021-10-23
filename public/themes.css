@@ -1,0 +1,27 @@
+.card.w11dark {
+  background-color: white;
+}
+.card.w11light {
+  background-color: black !important;
+}
+.container.w11light {
+  background-color: white;
+}
+.container.w11light * {
+  color: black;
+}
+.container.w11dark {
+  background-color: black;
+}
+.container.w11dark * {
+  color: white;
+}
+.card.w11dark * {
+  color: black;
+}
+.card.w11light * {
+  color: white;
+}
+#theme {
+  color: black;
+}
